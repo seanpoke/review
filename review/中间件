@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T10:19:55.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="QXbjruVMAfhpkmd1W6va" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-08T13:42:45.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="DIJd9_JTiaPWCzloUkO6" version="13.6.8" type="github">
   <diagram id="SSe73EmRRR0Fy199ib_n" name="第 1 页">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,8 +9,13 @@
             <mxPoint x="400.25" y="355.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZZTL4UAezJUP8qKfA1yL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.017;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZZTL4UAezJUP8qKfA1yL-2" target="ZZTL4UAezJUP8qKfA1yL-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZZTL4UAezJUP8qKfA1yL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZZTL4UAezJUP8qKfA1yL-2" target="ZZTL4UAezJUP8qKfA1yL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="306" />
+              <mxPoint x="350" y="179" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZZTL4UAezJUP8qKfA1yL-22" value="插入数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZTL4UAezJUP8qKfA1yL-17">
           <mxGeometry x="0.2351" relative="1" as="geometry">
@@ -60,6 +65,9 @@
         </mxCell>
         <mxCell id="ZZTL4UAezJUP8qKfA1yL-18" value="大数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZTL4UAezJUP8qKfA1yL-23" value="&lt;h1&gt;流程&lt;/h1&gt;&lt;div&gt;1、客户下单，调用下单模块，生成交易订单&lt;/div&gt;&lt;div&gt;2、客户进入支付界面，调用支付模块完成支付，异步模块进行减库存、发下到物流分拣系统、发券/红包/积分、push订单消息给用户等操作&lt;/div&gt;&lt;div&gt;3、用户查询支付完成的订单，调用物流系统查询订单情况&lt;/div&gt;&lt;div&gt;4、用户操作商品退货&lt;/div&gt;&lt;div&gt;5、如果遇到双11/618等大促，则有专门的大促模块处理&lt;/div&gt;&lt;div&gt;6、其他兄弟团队如大数据如果需要进行需要生成报表可以查询订单库&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="30" width="325" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
