@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T13:42:45.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="DIJd9_JTiaPWCzloUkO6" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-09T02:47:58.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Cd8XKpi_oRYd878O1loI" version="13.6.8" type="github">
   <diagram id="SSe73EmRRR0Fy199ib_n" name="第 1 页">
-    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,8 +43,13 @@
         <mxCell id="ZZTL4UAezJUP8qKfA1yL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZTL4UAezJUP8qKfA1yL-12" target="ZZTL4UAezJUP8qKfA1yL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZZTL4UAezJUP8qKfA1yL-12" value="客户下单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="315" width="90" height="80" as="geometry" />
+        <mxCell id="ZZTL4UAezJUP8qKfA1yL-24" value="每天几十万订单&lt;br style=&quot;font-size: 11px&quot;&gt;每秒2千左右&lt;br&gt;大促日每秒1万左右" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="ZZTL4UAezJUP8qKfA1yL-13">
+          <mxGeometry x="-0.3141" y="1" relative="1" as="geometry">
+            <mxPoint x="-7.42" y="31.42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZTL4UAezJUP8qKfA1yL-12" value="客户下单&lt;br&gt;百万日活" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZZTL4UAezJUP8qKfA1yL-14" value="退货模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="243" y="400" width="67" height="30" as="geometry" />
